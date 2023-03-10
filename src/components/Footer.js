@@ -12,6 +12,10 @@ export default function Footer(props) {
     formState: { errors, isValid },
   } = useForm({ mode: "onChange" });
 
+  const cx = !isValid
+    ? "cursor-not-allowed bg-[#cfd2cf]"
+    : "cursor-pointer bg-[#3730a3]";
+
   const onSubmit = (data) => {
     console.log(data);
     formSuccess();
@@ -32,14 +36,14 @@ export default function Footer(props) {
 
   return (
     <div
-      className="outerContainer bg-[#f9f9f9] box-border py-[14vh] flex items-start"
+      className="outerContainer bg-[#f9f9f9] py-[14vh] flex items-start lg:flex lg:flex-col lg:items-center lg:gap-y-[2vh]"
       id="hire-me"
     >
-      <div className="innerContainer w-[80%] flex flex-col gap-y-[8vh]">
-        <h2 className="text-[2.625rem] font-bold w-[80%] leading-[52.5px] text-[#1f2937]">
+      <div className="innerContainer w-[80%] flex flex-col gap-y-[8vh] ml-[10%] lg:w-[60%] lg:items-center lg:m-0">
+        <h2 className="text-[2.625rem] font-bold w-[80%] leading-[52.5px] text-[#1f2937] lg:w-[100%] lg:m-0 lg:text-center">
           Let's work together on your next product
         </h2>
-        <div className="emailContainer flex justify-between items-center w-[60%] gap-x-[2vw]">
+        <div className="emailContainer flex justify-between items-center w-[60%] gap-x-[2vw] lg:flex-col lg:gap-y-[3vh] lg:items-center">
           <a
             className="text-[#af0c48] underline font-medium text-[1.25rem] flex"
             href="mailto:kbatuhanoner@yahoo.com"
@@ -47,7 +51,7 @@ export default function Footer(props) {
             <img className="pr-2" src={el} alt="el" />
             kbatuhanoner@yahoo.com
           </a>
-          <div className="linksContainer flex justify-end gap-x-[3vw] w-[50%]">
+          <div className="linksContainer flex justify-end gap-x-[3vw] w-[50%] lg:justify-center">
             <a
               className="githubLink text-[#00ab6b] font-medium leading-[27px] text-[1.125rem]"
               href="https://github.com/KubiBatuOner"
@@ -64,12 +68,17 @@ export default function Footer(props) {
         </div>
       </div>
       <form
-        className="flex flex-col w-[40%] gap-y-[2vh] "
+        className="flex flex-col w-[40%] gap-y-[2vh] mr-[10%] lg:m-0 lg:gap-y-[4vh] sm:w-[70%]"
         onSubmit={handleSubmit(sendEmail)}
         href="mailto:kbatuhanoner@yahoo.com"
       >
-        <h2 className="text-[#1f2937] text-[1.5rem] font-bold">Contact me</h2>
-        <label className="label flex flex-col font-medium" htmlFor="name">
+        <h2 className="text-[#1f2937] text-[1.5rem] font-bold lg:text-center">
+          Contact me
+        </h2>
+        <label
+          className="label flex flex-col font-medium lg:text-center"
+          htmlFor="name"
+        >
           Full Name
           <input
             className="input border border-solid border-[#3730a3] rounded-md py-[1vh] px-[8px] text-[#6b7280] text-[0.85rem]"
@@ -127,23 +136,13 @@ export default function Footer(props) {
             {errors.message.message}
           </p>
         )}
-        {!isValid ? (
-          <button
-            className={`cursor-not-allowed border border-solid bg-[#cfd2cf] w-[50%] mx-auto rounded-md py-[1vh] text-[#ffffff] font-medium`}
-            type="submit"
-            disabled={!isValid}
-          >
-            Send
-          </button>
-        ) : (
-          <button
-            className={`border border-solid bg-[#3730a3] w-[50%] mx-auto rounded-md py-[1vh] text-[#ffffff] font-medium`}
-            type="submit"
-            disabled={!isValid}
-          >
-            Send
-          </button>
-        )}
+        <button
+          className={`${cx} border border-solid bg-[#3730a3] w-[50%] mx-auto rounded-md py-[1vh] text-[#ffffff] font-medium`}
+          type="submit"
+          disabled={!isValid}
+        >
+          Send
+        </button>
       </form>
     </div>
   );
