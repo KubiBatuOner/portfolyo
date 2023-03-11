@@ -12,7 +12,7 @@ export default function Projects() {
         Projects
       </h2>
       <div className="flex flex-wrap justify-between items-end lg:flex-col lg:items-center lg:gap-y-[10vh]">
-        <div className="flex flex-col w-[28%] gap-y-[3vh] lg:w-[70%] lg:items-center lg:gap-y-[5vh] lg:my-0 lg:mx-auto sm:gap-y-[2vh] sm:w-[100%]">
+        <div className="flex flex-col w-[28%] gap-y-[3vh] lg:w-[85%] lg:items-center lg:gap-y-[5vh] lg:my-0 lg:mx-auto sm:gap-y-[2vh] sm:w-[100%]">
           <a
             href="https://fsweb-s11g1-shopping-cart-git-main-kubibatuoner.vercel.app"
             target="_blank"
@@ -27,7 +27,7 @@ export default function Projects() {
           <h4 className="text-[1.875rem] font-medium leading-7 text-[#4338CA]">
             Shopping Cart
           </h4>
-          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1rem] lg:leading-[1.5rem] lg:text-center sm:w-[70%]">
+          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
             {" "}
             A simple, customizable, minimal setup cookie plugin that allows your
             users to select which cookies to accept or decline. This was created
@@ -65,7 +65,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
-        <div className="flex flex-col w-[28%] gap-y-[3vh] lg:w-[70%] lg:items-center lg:gap-y-[5vh] lg:my-0 lg:mx-auto sm:gap-y-[2vh] sm:w-[100%]">
+        <div className="flex flex-col w-[28%] gap-y-[3vh] lg:w-[85%] lg:items-center lg:gap-y-[5vh] lg:my-0 lg:mx-auto sm:gap-y-[2vh] sm:w-[100%]">
           <a
             href="https://fsweb-s10g3-redux-watchlist-git-main-kubibatuoner.vercel.app"
             target="_blank"
@@ -80,7 +80,7 @@ export default function Projects() {
           <h4 className="text-[1.875rem] font-medium leading-7 text-[#4338CA]">
             Watchlist
           </h4>
-          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1rem] lg:leading-[1.5rem] lg:text-center sm:w-[70%]">
+          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
             {" "}
             A simple, customizable, minimal setup cookie plugin that allows your
             users to select which cookies to accept or decline. This was created
@@ -118,7 +118,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
-        <div className="flex flex-col w-[28%] gap-y-[3vh] lg:w-[70%] lg:items-center lg:gap-y-[5vh] lg:my-0 lg:mx-auto sm:gap-y-[2vh] sm:w-[100%]">
+        <div className="flex flex-col w-[28%] gap-y-[3vh] lg:w-[85%] lg:items-center lg:gap-y-[5vh] lg:my-0 lg:mx-auto sm:gap-y-[2vh] sm:w-[100%]">
           <a
             href="https://fsweb-s10-challenge-chi.vercel.app"
             target="_blank"
@@ -133,7 +133,7 @@ export default function Projects() {
           <h4 className="text-[1.875rem] font-medium leading-7 text-[#4338CA]">
             Diary
           </h4>
-          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1rem] lg:leading-[1.5rem] lg:text-center sm:w-[70%]">
+          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
             {" "}
             A simple, customizable, minimal setup cookie plugin that allows your
             users to select which cookies to accept or decline. This was created

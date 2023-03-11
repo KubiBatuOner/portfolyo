@@ -39,11 +39,11 @@ export default function Footer(props) {
       className="outerContainer bg-[#f9f9f9] py-[12vh] flex items-start lg:flex lg:flex-col lg:items-center lg:gap-y-[5vh]"
       id="hire-me"
     >
-      <div className="innerContainer w-[80%] flex flex-col gap-y-[8vh] ml-[10%] lg:w-[60%] lg:items-center lg:m-0">
+      <div className="innerContainer w-[80%] flex flex-col gap-y-[8vh] ml-[10%] lg:w-[85%] lg:items-center lg:m-0">
         <h2 className="text-[2.625rem] font-bold w-[80%] leading-[52.5px] text-[#1f2937] lg:w-[100%] lg:m-0 lg:text-center lg:text-[2.5rem]">
           Let's work together on your next product
         </h2>
-        <div className="emailContainer flex justify-between items-center w-[60%] gap-x-[2vw] lg:flex-col lg:gap-y-[3vh] lg:items-center">
+        <div className="emailContainer flex justify-between items-center w-[85%] gap-x-[2vw] lg:flex-col lg:gap-y-[3vh] lg:items-center">
           <a
             className="text-[#af0c48] underline font-medium text-[1.25rem] flex"
             href="mailto:kbatuhanoner@yahoo.com"
@@ -51,7 +51,7 @@ export default function Footer(props) {
             <img className="pr-2" src={el} alt="el" />
             kbatuhanoner@yahoo.com
           </a>
-          <div className="linksContainer flex justify-end gap-x-[3vw] w-[50%] lg:justify-center">
+          <div className="linksContainer flex justify-end gap-x-[3vw] w-[70%] lg:justify-center">
             <a
               className="githubLink text-[#00ab6b] font-medium leading-[27px] text-[1.125rem]"
               href="https://github.com/KubiBatuOner"
