@@ -99,7 +99,10 @@ export default function Footer(props) {
             {errors.name.message}
           </p>
         )}
-        <label className="label flex flex-col font-medium" htmlFor="email">
+        <label
+          className="label flex flex-col font-medium lg:text-center"
+          htmlFor="email"
+        >
           E-mail
           <input
             className="input border border-solid border-[#3730a3] rounded-md py-[1vh] px-[8px] text-[#6b7280] text-[0.85rem]"
@@ -116,7 +119,10 @@ export default function Footer(props) {
             {errors.email.message}
           </p>
         )}
-        <label className="label flex flex-col font-medium" htmlFor="message">
+        <label
+          className="label flex flex-col font-medium lg:text-center"
+          htmlFor="message"
+        >
           Message
           <textarea
             className="textArea border border-solid border-[#3730a3] rounded-md py-[1vh] px-[8px] text-[#6b7280]"

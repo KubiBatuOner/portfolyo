@@ -1,6 +1,6 @@
-import diary from "../images/diary.png";
-import watchlist from "../images/watchlist.png";
-import shoppingCart from "../images/shopping.png";
+import diary from "../images/minnetGünlük.png";
+import watchlist from "../images/izlemeListe.png";
+import shoppingCart from "../images/shoppingListe.png";
 
 export default function Projects() {
   return (
@@ -27,7 +27,7 @@ export default function Projects() {
           <h4 className="text-[1.875rem] font-medium leading-7 text-[#4338CA]">
             Shopping Cart
           </h4>
-          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
+          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
             {" "}
             It is a shopping cart application built using React and Context API
             where users can add and remove products from their carts. Data is
@@ -76,9 +76,9 @@ export default function Projects() {
             />
           </a>
           <h4 className="text-[1.875rem] font-medium leading-7 text-[#4338CA]">
-            Watchlist
+            Movie Watchlist
           </h4>
-          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
+          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
             {" "}
             It is an application that allows users to browse a range of movies
             and add and remove movies from their favorite movie lists. This app
@@ -127,14 +127,13 @@ export default function Projects() {
             />
           </a>
           <h4 className="text-[1.875rem] font-medium leading-7 text-[#4338CA]">
-            Gratitude Journal
+            Gratitude Diary
           </h4>
-          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
+          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
             {" "}
-            A gratitude journal is a type of journal where one often writes down
-            the things one is thankful for so that they can focus on the
-            positive things in their life and feel gratitude and gratitude. It
-            was created by using React, Redux and Tailwind CSS.
+            This diary is a type of journal where one writes down the things one
+            is thankful for so that they can focus on the positive things in
+            their life. It was created by using React, Redux and Tailwind CSS.
           </p>
           <div className="flex gap-x-[0.5vw] lg:gap-x-[2vw]">
             <p className="border border-solid border-[#3730A3] text-[#3730A3] py-[6px] px-[18px] text-[0.875rem] rounded font-medium">

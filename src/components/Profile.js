@@ -11,34 +11,34 @@ export default function Profile() {
           </h4>
           <table className="text-left w-[30vw] border-separate lg:w-[100%] lg:items-center lg:pl-[7vw] sm:w-[70vw]">
             <tr>
-              <th className="pt-[0.3vw] text-[1.125rem] align-top lg:pt-[3vh]">
+              <th className="pt-[0.3vw] text-[1.125rem] align-top lg:pt-[3vh] lg:text-[1.2rem]">
                 Date of Birth
               </th>
-              <td className="pt-[0.3vw] pl-[1.5rem] text-[1.125rem] align-top lg:pt-[3vh]">
+              <td className="pt-[0.3vw] pl-[1.5rem] text-[1.125rem] align-top lg:pt-[3vh] lg:text-[1.2rem]">
                 07 July 2000
               </td>
             </tr>
             <tr>
-              <th className="pt-[0.3vw] text-[1.125rem] align-top lg:pt-[3vh]">
+              <th className="pt-[0.3vw] text-[1.125rem] align-top lg:pt-[3vh] lg:text-[1.2rem]">
                 Location
               </th>
-              <td className="pt-[0.3vw] pl-[1.5rem] text-[1.125rem] align-top lg:pt-[3vh]">
+              <td className="pt-[0.3vw] pl-[1.5rem] text-[1.125rem] align-top lg:pt-[3vh] lg:text-[1.2rem]">
                 Bursa
               </td>
             </tr>
             <tr>
-              <th className="pt-[0.3vw] text-[1.125rem] align-top lg:pt-[3vh]">
+              <th className="pt-[0.3vw] text-[1.125rem] align-top lg:pt-[3vh] lg:text-[1.2rem]">
                 Education
               </th>
-              <td className="pt-[0.3vw] pl-[1.5rem] text-[1.125rem] align-top lg:pt-[3vh]">
+              <td className="pt-[0.3vw] pl-[1.5rem] text-[1.125rem] align-top lg:pt-[3vh] lg:text-[1.2rem]">
                 Bahçeşehir University/Computer Engineering
               </td>
             </tr>
             <tr>
-              <th className="pt-[0.3vw] text-[1.125rem] align-top lg:pt-[3vh]">
+              <th className="pt-[0.3vw] text-[1.125rem] align-top lg:pt-[3vh] lg:text-[1.2rem]">
                 Preferred Position
               </th>
-              <td className="pt-[0.3vw] pl-[1.5rem] text-[1.125rem] align-top lg:pt-[3vh]">
+              <td className="pt-[0.3vw] pl-[1.5rem] text-[1.125rem] align-top lg:pt-[3vh] lg:text-[1.2rem]">
                 Full-Stack Developer
               </td>
             </tr>
@@ -48,12 +48,12 @@ export default function Profile() {
           <h4 className="text-[1.87rem] font-medium leading-7 text-[#4338ca]">
             About Me
           </h4>
-          <p className="font-normal text-[1.125rem] leading-[150%] lg:items-center lg:text-center">
+          <p className="font-normal text-[1.125rem] leading-[150%] lg:items-center lg:text-center lg:text-[1.2rem]">
             My name is Kubilay Batuhan Öner. I am 23 years old. I studied
             computer engineering at Bahçeşehir University and I graduated in
             2022.
           </p>
-          <p className="font-normal text-[1.125rem] leading-[150%] lg:items-center lg:text-center">
+          <p className="font-normal text-[1.125rem] leading-[150%] lg:items-center lg:text-center lg:text-[1.2rem]">
             I've always had a passion for software. I always do research while
             doing a project. I am very curious about learning new information. I
             have the competence to create great products with these features.
