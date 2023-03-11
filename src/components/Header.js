@@ -3,7 +3,7 @@ import { HashLink } from "react-router-hash-link";
 export default function Header() {
   return (
     <div className="w-[80%] my-0 mx-auto py-[10vh] flex justify-between items-center sm:flex-col sm:gap-y-[3vh] sm:pt-[5vh] sm:pb-[2vh]">
-      <div className="text-[#7B61FF] font-bold rotate-[24deg] lg:rounded lg:rotate-0 sm:rotate-0">
+      <div className="text-[#7B61FF] font-bold rotate-[24deg] lg:rounded">
         <div className="rounded-full w-[4rem] h-[4rem] bg-[#EEEBFF] text-[1.5rem]">
           <div className="h-[4rem] flex justify-center items-center">K</div>
         </div>
@@ -27,7 +27,7 @@ export default function Header() {
         </HashLink>
         <HashLink smooth to="/#hire-me">
           <a
-            className="flex justify-center items-center w-[10vw] border border-solid border-[#3730A3] rounded-md py-[1vh] text-[18px] leading-7 text-[#3730A3] font-medium cursor-pointer hover:bg-[#3730a3] hover:text-[#ffffff] lg:w-[15vw] sm:w-[20vw]"
+            className="flex justify-center items-center truncate w-[10vw] border border-solid border-[#3730A3] rounded-md py-[1vh] text-[18px] leading-7 text-[#3730A3] font-medium cursor-pointer hover:bg-[#3730a3] hover:text-[#ffffff] lg:w-[15vw] sm:w-[20vw]"
             href="#hire-me"
           >
             Hire me

@@ -1,11 +1,11 @@
 export default function Profile() {
   return (
     <div className="w-[80%] mx-auto flex flex-col mt-[42px] gap-y-[5vh] border-y-[0.1rem] border-solid border-[#bab2e7] py-[5vh] px-0">
-      <h2 className="font-bold leading-[48px] text-[3rem] lg:text-center">
+      <h2 className="font-bold leading-[48px] text-[3rem] lg:text-center lg:text-[2.5rem]">
         Profile
       </h2>
       <div className="flex gap-x-[4vw] lg:flex-col lg:items-center lg:gap-y-[5vh]">
-        <div className="w-2/5 flex flex-col gap-y-[2vh] lg:w-[70%] lg:items-center">
+        <div className="w-2/5 flex flex-col gap-y-[2vh] lg:w-[80%] lg:items-center">
           <h4 className="text-[1.87rem] font-medium leading-7 text-[#4338ca] ">
             Profile
           </h4>

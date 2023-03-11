@@ -13,7 +13,7 @@ export default function Intro() {
               Kubilay Batuhan Öner
             </p>
           </div>
-          <h2 className="font-bold text-[#1F2937] text-[4.5rem] leading-[4.5rem] break-words sm:text-[3.2rem] sm:leading-[60px]">
+          <h2 className="font-bold text-[#1F2937] text-[4.5rem] leading-[4.5rem] break-words lg:text-[3.2rem] lg:leading-[60px]">
             Business-oriented full stack web developer
           </h2>
           <p className="text-[18px] leading-7">
@@ -22,7 +22,7 @@ export default function Intro() {
             great user experiences. Let’s shake hands with me.
           </p>
           <div className="linkOuterContainer flex gap-x-[1vw] lg:justify-center sm:flex-col sm:items-center sm:gap-y-[1vh]">
-            <div className="hireMeContainer border border-solid border-[#3730A3] rounded-md flex justify-center items-center gap-x-2.5 bg-[#3730A3] cursor-pointer sm:w-[50%]">
+            <div className="hireMeContainer border border-solid border-[#3730A3] rounded-md flex justify-center items-center gap-x-2.5 bg-[#3730A3] cursor-pointer truncate sm:w-[50%]">
               <p className="hireMeText px-10 py-3 text-[#ffffff] text-lg">
                 Hire me
               </p>
