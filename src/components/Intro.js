@@ -15,10 +15,10 @@ export default function Intro() {
             <hr className="hidden lg:inline lg:border lg:border-solid lg:border-[#3730A3] lg:w-[7.9vw]" />
           </div>
           <h2 className="font-bold text-[#1F2937] text-[4.5rem] leading-[4.5rem] break-words lg:text-[3.2rem] lg:leading-[60px]">
-            Business-oriented full stack web developer
+            Business-oriented full stack developer
           </h2>
           <p className="text-[18px] leading-7">
-            Hi, I’m Kubilay. I’m a full-stack developer. If you are looking for
+            Hi, I’m Kubilay. I’m a full stack developer. If you are looking for
             a Developer who to craft solid and scalable full stack products with
             great user experiences. Let’s shake hands with me.
           </p>
