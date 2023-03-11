@@ -13,8 +13,9 @@ export default function Skills() {
             JavaScript
           </h4>
           <p className="font-normal text-[1rem] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            JavaScript is easy to understand and learn. The structure is simple
+            for the users as well as the developers. I've been using JS and
+            compatible libraries for my projects.
           </p>
         </div>
         <div className="flex flex-col w-[27%] gap-y-[5vh] lg:w-[85%] lg:items-center sm:gap-y-[2vh]">
@@ -22,17 +23,20 @@ export default function Skills() {
             React.Js
           </h4>
           <p className="font-normal text-[1rem] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            Creating a dynamic web app with HTML strings was difficult,
+            especially since it required complex coding, but React JS solved
+            that problem and made it easy. It provides less coding and provides
+            more functionality.
           </p>
         </div>
         <div className="flex flex-col w-[27%] gap-y-[5vh] lg:w-[85%] lg:items-center sm:gap-y-[2vh]">
           <h4 className="text-[30px] font-medium leading-7 text-[#4338ca]">
-            Node.Js
+            Tailwind CSS
           </h4>
           <p className="font-normal text-[1rem] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            Using Tailwind CSS, the developer does not have to write custom
+            classes and switch files. This speeds up the web development process
+            so when I write my codes I use tailwind css.
           </p>
         </div>
       </div>
