@@ -50,7 +50,10 @@ export default function Profile() {
           </h4>
           <p className="font-normal text-[1.125rem] leading-[150%] lg:items-center lg:text-center">
             My name is Kubilay Batuhan Öner. I am 23 years old. I studied
-            computer engineering at Bahçeşehir University. I graduated in 2022.
+            computer engineering at Bahçeşehir University and I graduated in
+            2022.
+          </p>
+          <p className="font-normal text-[1.125rem] leading-[150%] lg:items-center lg:text-center">
             I've always had a passion for software. I always do research while
             doing a project. I am very curious about learning new information. I
             have the competence to create great products with these features.

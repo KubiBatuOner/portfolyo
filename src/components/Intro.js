@@ -12,6 +12,7 @@ export default function Intro() {
             <p className="font-medium text-[1.25rem] text-[#4338CA]">
               Kubilay Batuhan Öner
             </p>
+            <hr className="hidden lg:inline lg:border lg:border-solid lg:border-[#3730A3] lg:w-[7.9vw]" />
           </div>
           <h2 className="font-bold text-[#1F2937] text-[4.5rem] leading-[4.5rem] break-words lg:text-[3.2rem] lg:leading-[60px]">
             Business-oriented full stack web developer
