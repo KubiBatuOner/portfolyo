@@ -40,7 +40,7 @@ export default function Footer(props) {
       id="hire-me"
     >
       <div className="innerContainer w-[80%] flex flex-col gap-y-[8vh] ml-[10%] lg:w-[85%] lg:items-center lg:m-0">
-        <h2 className="text-[2.625rem] font-bold w-[80%] leading-[52.5px] text-[#1f2937] lg:w-[100%] lg:m-0 lg:text-center lg:text-[2.5rem]">
+        <h2 className="text-[2.625rem] font-bold w-[80%] leading-[52.5px] text-[#1F2937] lg:w-[100%] lg:m-0 lg:text-center lg:text-[2.5rem]">
           Let's work together on your next product
         </h2>
         <div className="emailContainer flex justify-between items-center w-[85%] gap-x-[2vw] lg:flex-col lg:gap-y-[3vh] lg:items-center">

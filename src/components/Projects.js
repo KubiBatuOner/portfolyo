@@ -27,7 +27,7 @@ export default function Projects() {
           <h4 className="text-[1.875rem] font-medium leading-7 text-[#4338CA]">
             Shopping Cart
           </h4>
-          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
+          <p className="font-normal text-[1rem] text-[#6B7280] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
             {" "}
             It is a shopping cart application built using React and Context API
             where users can add and remove products from their carts. Data is
@@ -78,7 +78,7 @@ export default function Projects() {
           <h4 className="text-[1.875rem] font-medium leading-7 text-[#4338CA]">
             Movie Watchlist
           </h4>
-          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
+          <p className="font-normal text-[1rem] text-[#6B7280] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
             {" "}
             It is an application that allows users to browse a range of movies
             and add and remove movies from their favorite movie lists. This app
@@ -129,7 +129,7 @@ export default function Projects() {
           <h4 className="text-[1.875rem] font-medium leading-7 text-[#4338CA]">
             Gratitude Diary
           </h4>
-          <p className="font-normal text-[1rem] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
+          <p className="font-normal text-[1rem] text-[#6B7280] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center sm:w-[85%]">
             {" "}
             This diary is a type of journal where one writes down the things one
             is thankful for so that they can focus on the positive things in

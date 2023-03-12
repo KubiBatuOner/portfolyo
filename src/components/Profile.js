@@ -1,7 +1,7 @@
 export default function Profile() {
   return (
     <div className="w-[80%] mx-auto flex flex-col mt-[42px] gap-y-[5vh] border-y-[0.1rem] border-solid border-[#bab2e7] py-[42px] px-0">
-      <h2 className="font-bold leading-[48px] text-[3rem] lg:text-center lg:text-[2.5rem]">
+      <h2 className="font-bold text-[#1F2937] leading-[48px] text-[3rem] lg:text-center lg:text-[2.5rem]">
         Profile
       </h2>
       <div className="flex gap-x-[4vw] lg:flex-col lg:items-center lg:gap-y-[5vh]">
@@ -48,12 +48,12 @@ export default function Profile() {
           <h4 className="text-[1.87rem] font-medium leading-7 text-[#4338ca]">
             About Me
           </h4>
-          <p className="font-normal text-[1.125rem] leading-[150%] lg:items-center lg:text-center lg:text-[1.2rem]">
+          <p className="font-normal text-[1.125rem] text-[#6B7280] leading-[150%] lg:items-center lg:text-center lg:text-[1.2rem]">
             My name is Kubilay Batuhan Öner. I am 23 years old. I studied
             computer engineering at Bahçeşehir University and I graduated in
             2022.
           </p>
-          <p className="font-normal text-[1.125rem] leading-[150%] lg:items-center lg:text-center lg:text-[1.2rem]">
+          <p className="font-normal text-[1.125rem] text-[#6B7280] leading-[150%] lg:items-center lg:text-center lg:text-[1.2rem]">
             I've always had a passion for software. I always do research while
             doing a project. I am very curious about learning new information. I
             have the competence to create great products with these features.
