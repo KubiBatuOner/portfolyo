@@ -27,7 +27,7 @@ export default function Header() {
         </HashLink>
         <HashLink smooth to="/#hire-me">
           <a
-            className="flex justify-center items-center truncate w-[10vw] border border-solid border-[#3730A3] rounded-md py-[1vh] text-[18px] leading-7 text-[#3730A3] font-medium cursor-pointer hover:bg-[#3730a3] hover:text-[#ffffff] lg:w-[15vw] sm:w-[20vw]"
+            className="flex justify-center items-center truncate w-[10vw] border border-solid border-[#3730A3] rounded-md py-[1vh] text-[18px] leading-7 text-[#3730A3] font-medium cursor-pointer hover:bg-[#3730a3] hover:text-[#ffffff] lg:w-[15vw] sm:w-[25vw]"
             href="#hire-me"
           >
             Hire me
