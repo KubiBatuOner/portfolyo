@@ -24,7 +24,7 @@ export default function Skills() {
           </h4>
           <p className="font-normal text-[1rem] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center">
             Creating a dynamic web app with HTML strings was difficult,
-            especially since it required complex coding, but React JS solved
+            especially since it required complex coding, but React.JS solved
             that problem and made it easy. It provides less coding and provides
             more functionality.
           </p>
@@ -36,7 +36,7 @@ export default function Skills() {
           <p className="font-normal text-[1rem] leading-[150%] lg:text-[1.2rem] lg:leading-[1.5rem] lg:text-center">
             Using Tailwind CSS, the developer does not have to write custom
             classes and switch files. This speeds up the web development process
-            so when I write my codes I use tailwind css.
+            so when I write my codes I use Tailwind CSS.
           </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
 export default function Profile() {
   return (
-    <div className="w-[80%] mx-auto flex flex-col mt-[42px] gap-y-[5vh] border-y-[0.1rem] border-solid border-[#bab2e7] py-[5vh] px-0">
+    <div className="w-[80%] mx-auto flex flex-col mt-[42px] gap-y-[5vh] border-y-[0.1rem] border-solid border-[#bab2e7] py-[42px] px-0">
       <h2 className="font-bold leading-[48px] text-[3rem] lg:text-center lg:text-[2.5rem]">
         Profile
       </h2>
