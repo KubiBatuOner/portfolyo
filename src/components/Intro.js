@@ -1,4 +1,3 @@
-import kubiFoto from "./../images/fotoKubi.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -47,18 +46,12 @@ export default function Intro() {
                 className="text-[#3730A3]"
                 href="https://www.linkedin.com/in/kubilay-batuhan-öner-a45130234/"
               >
-                LinkedIn
+                Linkedin
               </a>
             </div>
           </div>
         </div>
-        <div className="kubiFoto flex justify-end lg:justify-center">
-          <img
-            className="max-w-[90%] rounded-2xl shadow-[0_8px_28px_-6px_rgba(24,39,75,0.12),0_18px_88px_-4px_rgba(24,39,75,0.14)] lg:max-w-[75%] sm:max-w-[90%]"
-            src={kubiFoto}
-            alt="kubiFoto"
-          />
-        </div>
+        <div className="kubiFoto bg-cover bg-top bg-no-repeat bg-kubiFoto w-[39vw] h-[26vw] rounded-2xl shadow-[0_8px_28px_-6px_rgba(24,39,75,0.12),0_18px_88px_-4px_rgba(24,39,75,0.14)] lg:w-[60%] lg:h-[45vh] sm:w-[90%]"></div>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import diary from "../images/minnetGünlük.png";
 import watchlist from "../images/izlemeListe.png";
 import shoppingCart from "../images/shoppingListe.png";
 
-export default function Projects() {
+export default function Projects(props) {
   return (
     <div
       className="w-[80%] my-0 mx-auto flex flex-col gap-y-[5vh] pt-[42px] pb-[36px] sm:w-[100%]"
@@ -19,7 +19,7 @@ export default function Projects() {
             rel="noreferrer"
           >
             <img
-              className="max-w-[100%] rounded-[18px] shadow-[0_8px_28px_-6px_rgba(24,39,75,0.12),0_18px_88px_-4px_rgba(24,39,75,0.14)]"
+              className="max-w-[100%] rounded-[10px] shadow-[0_8px_28px_-6px_rgba(24,39,75,0.12),0_18px_88px_-4px_rgba(24,39,75,0.14)]"
               src={shoppingCart}
               alt="shoppingCart"
             />
@@ -70,7 +70,7 @@ export default function Projects() {
             rel="noreferrer"
           >
             <img
-              className="max-w-[100%] rounded-[18px] shadow-[0_8px_28px_-6px_rgba(24,39,75,0.12),0_18px_88px_-4px_rgba(24,39,75,0.14)]"
+              className="max-w-[100%] rounded-[10px] shadow-[0_8px_28px_-6px_rgba(24,39,75,0.12),0_18px_88px_-4px_rgba(24,39,75,0.14)]"
               src={watchlist}
               alt="watchlist"
             />
@@ -121,7 +121,7 @@ export default function Projects() {
             rel="noreferrer"
           >
             <img
-              className="max-w-[100%] rounded-[18px] shadow-[0_8px_28px_-6px_rgba(24,39,75,0.12),0_18px_88px_-4px_rgba(24,39,75,0.14)]"
+              className="max-w-[100%] rounded-[10px] shadow-[0_8px_28px_-6px_rgba(24,39,75,0.12),0_18px_88px_-4px_rgba(24,39,75,0.14)]"
               src={diary}
               alt="diary"
             />

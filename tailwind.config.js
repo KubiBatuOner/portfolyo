@@ -4,8 +4,11 @@ module.exports = {
   theme: {
     extend: {},
     screens: {
-      lg: { max: "1130px" },
+      lg: { max: "1054px" },
       sm: { max: "479px" },
+    },
+    backgroundImage: {
+      kubiFoto: "url('/src/images/fotoKubi.png')",
     },
   },
   plugins: [],
