@@ -4,12 +4,12 @@ export default function Profile() {
       <h2 className="font-bold text-[#1F2937] leading-[48px] text-[3rem] lg:text-center lg:text-[2.5rem]">
         Profile
       </h2>
-      <div className="flex gap-x-[4vw] lg:flex-col lg:items-center lg:gap-y-[5vh]">
+      <div className="flex gap-x-[5vw] lg:flex-col lg:items-center lg:gap-y-[5vh]">
         <div className="w-2/5 flex flex-col gap-y-[2vh] lg:w-[80%] lg:items-center">
           <h4 className="text-[1.87rem] font-medium leading-7 text-[#4338ca] ">
             Profile
           </h4>
-          <table className="text-left w-[30vw] border-separate lg:w-[100%] lg:items-center lg:pl-[7vw] sm:w-[70vw]">
+          <table className="text-left w-[31vw] border-separate lg:w-[100%] lg:items-center lg:pl-[7vw] sm:w-[70vw]">
             <tr>
               <th className="pt-[0.3vw] text-[1.125rem] align-top lg:pt-[3vh] lg:text-[1.2rem]">
                 Date of Birth
@@ -39,7 +39,7 @@ export default function Profile() {
                 Preferred Position
               </th>
               <td className="pt-[0.3vw] pl-[1.5rem] text-[1.125rem] align-top lg:pt-[3vh] lg:text-[1.2rem]">
-                Full-Stack Developer
+                Frontend, UI
               </td>
             </tr>
           </table>
