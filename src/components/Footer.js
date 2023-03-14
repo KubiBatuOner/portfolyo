@@ -62,6 +62,8 @@ export default function Footer(props) {
             <a
               className="githubLink text-[#00ab6b] font-medium leading-[27px] text-[1.125rem] my-2 flex"
               href="https://github.com/KubiBatuOner"
+              target="_blank"
+              rel="noreferrer"
             >
               <img className="pr-2 lg:hidden" src={el} alt="el" />
               Github
@@ -69,6 +71,8 @@ export default function Footer(props) {
             <a
               className="linkedinlink text-[#0077b5] font-medium leading-[27px] text-[1.1rem] flex"
               href="https://www.linkedin.com/in/kubilay-batuhan-öner-a45130234/"
+              target="_blank"
+              rel="noreferrer"
             >
               <img className="pr-2 lg:hidden" src={el} alt="el" />
               Linkedin

@@ -9,7 +9,7 @@ export const projects = [
     lang2: "styled",
     lang3: "context",
     github: "https://github.com/KubiBatuOner/fsweb-s11g1-shopping-cart",
-    site: "https://fsweb-s11g1-shopping-cart-git-main-kubibatuoner.vercel.app",
+    site: "https://fsweb-s11g1-shopping-cart-kubibatuoner.vercel.app",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const projects = [
     lang2: "redux",
     lang3: "tailwind",
     github: "https://github.com/KubiBatuOner/fsweb-s10g3-redux-watchlist",
-    site: "https://fsweb-s10g3-redux-watchlist-git-main-kubibatuoner.vercel.app",
+    site: "https://fsweb-s10g3-redux-watchlist-kubibatuoner.vercel.app",
   },
   {
     id: 3,
@@ -33,6 +33,6 @@ export const projects = [
     lang2: "redux",
     lang3: "tailwind",
     github: "https://github.com/KubiBatuOner/fsweb-s10-challenge",
-    site: "https://fsweb-s10-challenge-chi.vercel.app",
+    site: "https://fsweb-s10-challenge-kubibatuoner.vercel.app",
   },
 ];

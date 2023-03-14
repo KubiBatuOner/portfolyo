@@ -6,7 +6,7 @@ export default function Project(props) {
         <img
           className="max-w-[100%] rounded-[10px] shadow-[0_8px_28px_-6px_rgba(24,39,75,0.12),0_18px_88px_-4px_rgba(24,39,75,0.14)]"
           src={project.img}
-          alt="shoppingCart"
+          alt="resim"
         />
       </a>
       <h4 className="text-[1.875rem] font-medium leading-7 text-[#4338CA]">

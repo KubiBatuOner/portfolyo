@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { HashLink } from "react-router-hash-link";
 
 export default function Intro() {
   return (
@@ -22,9 +23,11 @@ export default function Intro() {
             great user experiences. Let’s shake hands with me.
           </p>
           <div className="linkOuterContainer flex gap-x-[1vw] lg:justify-center sm:flex-col sm:items-center sm:gap-y-[1vh]">
-            <div className="hireMeContainer px-10 py-3 border border-solid border-[#3730A3] rounded-md flex justify-center items-center gap-x-2.5 bg-[#3730A3] cursor-pointer truncate sm:w-[50%]">
-              <p className="hireMeText text-[#ffffff] text-lg">Hire me</p>
-            </div>
+            <HashLink smooth to="/#hire-me">
+              <div className="hireMeContainer px-10 py-3 border border-solid border-[#3730A3] rounded-md flex justify-center items-center gap-x-2.5 bg-[#3730A3] cursor-pointer truncate sm:w-[50%]">
+                <p className="hireMeText text-[#ffffff] text-lg">Hire me</p>
+              </div>
+            </HashLink>
             <div className="linkContainer px-8 py-3 border border-solid border-[#3730A3] rounded-md flex justify-center items-center gap-x-2.5 cursor-pointer sm:w-[50%]">
               <FontAwesomeIcon
                 className="fa-xl text-[#3730A3]"
@@ -33,6 +36,8 @@ export default function Intro() {
               <a
                 className="text-[#3730A3]"
                 href="https://github.com/KubiBatuOner"
+                target="_blank"
+                rel="noreferrer"
               >
                 Github
               </a>
@@ -45,6 +50,8 @@ export default function Intro() {
               <a
                 className="text-[#3730A3]"
                 href="https://www.linkedin.com/in/kubilay-batuhan-öner-a45130234/"
+                target="_blank"
+                rel="noreferrer"
               >
                 Linkedin
               </a>
