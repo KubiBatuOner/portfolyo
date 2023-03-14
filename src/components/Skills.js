@@ -7,8 +7,8 @@ export default function Skills() {
       <h2 className="font-bold text-[#1F2937] leading-[48px] text-[3rem] lg:text-center lg:text-[2.5rem]">
         Skills
       </h2>
-      <div className="flex flex-wrap justify-between pb-5 lg:flex-col lg:items-center lg:gap-y-[5vh]">
-        <div className="flex flex-col w-[27%] gap-y-[5vh] lg:w-[85%] lg:items-center sm:gap-y-[3vh]">
+      <div className="flex flex-wrap justify-between lg:flex-col lg:items-center lg:gap-y-[5vh]">
+        <div className="flex flex-col w-[27%] gap-y-[4vh] lg:w-[85%] lg:items-center sm:gap-y-[3vh]">
           <h4 className="text-[30px] font-medium leading-7 text-[#4338ca]">
             JavaScript
           </h4>
@@ -18,7 +18,7 @@ export default function Skills() {
             compatible libraries for my projects.
           </p>
         </div>
-        <div className="flex flex-col w-[27%] gap-y-[5vh] lg:w-[85%] lg:items-center sm:gap-y-[3vh]">
+        <div className="flex flex-col w-[27%] gap-y-[4vh] lg:w-[85%] lg:items-center sm:gap-y-[3vh]">
           <h4 className="text-[30px] font-medium leading-7 text-[#4338ca]">
             React.Js
           </h4>
@@ -29,7 +29,7 @@ export default function Skills() {
             more functionality.
           </p>
         </div>
-        <div className="flex flex-col w-[27%] gap-y-[5vh] lg:w-[85%] lg:items-center sm:gap-y-[3vh]">
+        <div className="flex flex-col w-[27%] gap-y-[4vh] lg:w-[85%] lg:items-center sm:gap-y-[3vh]">
           <h4 className="text-[30px] font-medium leading-7 text-[#4338ca]">
             Tailwind CSS
           </h4>
