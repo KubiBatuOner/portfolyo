@@ -23,11 +23,12 @@ export default function Intro() {
             great user experiences. Let’s shake hands with me.
           </p>
           <div className="linkOuterContainer flex gap-x-[1vw] lg:justify-center sm:flex-col sm:items-center sm:gap-y-[1vh]">
-            <HashLink smooth to="/#hire-me">
-              <div className="hireMeContainer px-10 py-3 border border-solid border-[#3730A3] rounded-md flex justify-center items-center gap-x-2.5 bg-[#3730A3] cursor-pointer truncate sm:w-[50%]">
+            <div className="hireMeContainer px-10 py-3 border border-solid border-[#3730A3] rounded-md flex justify-center items-center gap-x-2.5 bg-[#3730A3] cursor-pointer truncate sm:w-[50%]">
+              <HashLink smooth to="/#hire-me">
                 <p className="hireMeText text-[#ffffff] text-lg">Hire me</p>
-              </div>
-            </HashLink>
+              </HashLink>
+            </div>
+
             <div className="linkContainer px-8 py-3 border border-solid border-[#3730A3] rounded-md flex justify-center items-center gap-x-2.5 cursor-pointer sm:w-[50%]">
               <FontAwesomeIcon
                 className="fa-xl text-[#3730A3]"
