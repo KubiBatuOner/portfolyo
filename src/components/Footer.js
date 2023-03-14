@@ -23,7 +23,7 @@ export default function Footer(props) {
   };
   const sendEmail = (formData) => {
     onSubmit(formData);
-    emailjs.send("service_xtb14ei", "template_5z3refi", formData).then(
+    emailjs.send("service_rsp2b92", "template_tyh4m6t", formData).then(
       (result) => {
         console.log(result.text);
       },
@@ -43,12 +43,12 @@ export default function Footer(props) {
         <h2 className="text-[2.625rem] font-semibold w-[55%] leading-[52.5px] text-[#1F2937] lg:w-[60%] lg:m-0 lg:text-center lg:text-[2.5rem]">
           Let's work together on your next product
         </h2>
-        <div className="emailContainer w-[65%] lg:flex lg:flex-col lg:items-center">
+        <div className="emailContainer w-[65%] lg:flex lg:flex-col lg:items-center ">
           <a
             className="text-[#af0c48] underline font-medium text-[1.25rem] flex"
             href="mailto:kbatuhanoner@yahoo.com"
           >
-            <img className="pr-2" src={el} alt="el" />
+            <img className="pr-2 lg:hidden" src={el} alt="el" />
             kbatuhanoner@yahoo.com
           </a>
           <div className="linksContainer flex flex-col gap-x-[3vw] lg:justify-center">
@@ -56,14 +56,14 @@ export default function Footer(props) {
               className="githubLink text-[#00ab6b] font-medium leading-[27px] text-[1.125rem] my-2 flex"
               href="https://github.com/KubiBatuOner"
             >
-              <img className="pr-2" src={el} alt="el" />
+              <img className="pr-2 lg:hidden" src={el} alt="el" />
               Github
             </a>
             <a
               className="linkedinlink text-[#0077b5] font-medium leading-[27px] text-[1.1rem] flex"
               href="https://www.linkedin.com/in/kubilay-batuhan-öner-a45130234/"
             >
-              <img className="pr-2" src={el} alt="el" />
+              <img className="pr-2 lg:hidden" src={el} alt="el" />
               Linkedin
             </a>
           </div>
