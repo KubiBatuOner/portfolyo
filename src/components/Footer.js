@@ -23,14 +23,21 @@ export default function Footer(props) {
   };
   const sendEmail = (formData) => {
     onSubmit(formData);
-    emailjs.send("service_rsp2b92", "template_tyh4m6t", formData).then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
+    emailjs
+      .send(
+        "service_rsp2b92",
+        "template_tyh4m6t",
+        formData,
+        "tfOGV6prPjVcdhFOe"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
     reset();
   };
 
