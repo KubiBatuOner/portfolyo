@@ -50,7 +50,7 @@ export default function Intro() {
               />
               <a
                 className="text-[#3730A3]"
-                href="https://www.linkedin.com/in/kubilay-batuhan-öner-a45130234/"
+                href="https://www.linkedin.com/in/kubilay-batuhan-öner/"
                 target="_blank"
                 rel="noreferrer"
               >
